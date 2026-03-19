@@ -6,7 +6,7 @@ on:
     types:
       - closed                # fires when PR is closed/merged
   schedule:
-    - cron: '0 */1 * * *'       # every day at midnight UTC
+    - cron: '*/30 * * * *'       
   workflow_dispatch:          # manual trigger from GitHub UI
 
 jobs:
